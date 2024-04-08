@@ -1,0 +1,66 @@
+<html>
+ <head>
+   <title>Bad Code Smell</title>
+       <link href="./Navbar/Navbar.css" rel="stylesheet">
+       <link href="Home.css" rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="container">
+      <nav>
+        <div id="logo">
+          Bad Code Smell
+        </div>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+        
+          <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="#">Change Preventers &nbsp;<i class="fa fa-caret-down"></i></a>
+            <div class="dd">
+              <div id="up_arrow"></div>
+            <ul>
+              <li><a href='ChangePreventer/ChangePreventer.html?id=1'>Divergent Change</a></li>
+              <li><a href="ChangePreventer/ChangePreventer.html?id=2">Shotgun Surgery</a></li>
+              <li><a href="ChangePreventer/ChangePreventer.html?id=3">Parallel Inheritance</a></li>
+            </ul>
+            </div>
+          </li>
+          <li class="dropdown"><a href="#">Dispensables &nbsp;<i class="fa fa-caret-down"></i> </a>
+           <div class="dd">
+             <div id="u_a_c"><div id="up_arrow"></div></div>
+            <ul id="ul1">
+              <li><a href="Dispensables/Dispensables.html?id=1">Comment</a></li>
+              <li><a href="Dispensables/Dispensables.html?id=2">Duplicate Code</a></li>
+              <li><a href="Dispensables/Dispensables.html?id=3">Lazy Class</a></li>
+              <li><a href='Dispensables/Dispensables.html?id=4'>Data Class</a></li>
+              <li><a href='Dispensables/Dispensables.html?id=5'>Dead Code</a></li>
+              <li><a href='Dispensables/Dispensables.html?id=6'>Speculative Generality</a></li>
+            </ul>
+            </div>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="titleContainer">
+     <span class="title">Bad Code Smell</span>
+    </div>
+
+    <div class="explanation">
+      <div class="image">
+        <img src="Asset/logo.png" class="imageSize">
+      </div>
+      <div class="shortExplanation">
+        Code smell refers to any symptom in the source code of a program that 
+        possibly indicates a deeper problem. They are not bugs or errors but 
+        are tangible and observable violations of code design/development 
+        fundamentals that could eventually lead to poor code quality and 
+        technical debt. Code smells are subjective and can vary based on 
+        context, but they often suggest that the code could be improved 
+        in terms of readability, maintainability, or efficiency.
+      </div>
+     
+    </div>
+    
+
+  </body>
+</html>
