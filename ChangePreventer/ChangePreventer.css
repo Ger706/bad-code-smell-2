@@ -1,0 +1,37 @@
+.contain {
+    margin-top: -2%;
+   margin-left: 10%;
+   margin-right: 10%;
+   background-color: lightgray;
+   border-radius: 20px;
+   padding: 1.5%;
+}
+.contain > .title {
+    width: 100%;
+    text-align:center;
+}
+.contain > div {
+    margin-bottom: 3%;
+}
+
+.contain > div > ul {
+    margin-left: 40px;
+}
+.imageContain > div {
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.imageContain > div >div {
+    /* width: 500px; */
+    color: white;
+    margin: 2%;
+    display: grid;
+   
+    /* height: 500px; */
+}
+.imageContain > div > div > img {
+    width: 550px;
+    height: 450px;
+    margin-bottom: 10px;
+}
